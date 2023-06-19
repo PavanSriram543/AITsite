@@ -1,0 +1,92 @@
+.footer {
+  background: black;
+}
+.list-unstyled a {
+  color: white;
+  text-decoration: none;
+}
+.list-unstyled a:hover {
+  color: orangered;
+}
+.social-icons {
+  padding: 10px;
+  border: 0;
+  border-top: 1px solid #fff !important;
+}
+.footer-copyright {
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.d-flex-0 {
+  display: flex;
+  flex: 1 1 0%;
+}
+/* sticky nav bar */
+.second-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%);
+  background: #fff;
+  z-index: 13;
+}
+/* fixed footer */
+.fixed-footer {
+  width: 100%;
+  position: fixed;
+  background: black;
+  color: #fff;
+  bottom: 0px;
+}
+.span-text {
+  position: relative;
+  top: -10px;
+}
+.social-icons ul li a {
+  display: inline-block;
+  position: relative;
+  margin: 0px auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 6px;
+  color: black !important;
+}
+.social-icons ul li {
+  margin: 4px;
+}
+
+.social-icons li a:hover [class*="fa"] {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  color: #fff;
+}
+
+.social-icons [class*="fa"] {
+  transition-property: transform, color;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform, color;
+  -webkit-transition-duration: 0.8s;
+  -ms-transition-property: -ms-transform, color;
+  -ms-transition-duration: 0.8s;
+}
+.social-icons li:hover .facebook {
+  background: #3b5998;
+}
+.social-icons li:hover .twitter {
+  background: #00acee;
+}
+.social-icons li:hover .linkedin {
+  background: #0e76a8;
+}
+.social-icons li:hover .pinterest {
+  background: #c8232c;
+}
+.social-icons li:hover .youtube {
+  background: #ff0000;
+}
