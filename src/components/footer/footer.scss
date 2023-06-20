@@ -1,5 +1,10 @@
 .footer {
   background: black;
+  position: fixed;
+  bottom: 0;
+  .logo-data {
+    color: white;
+  }
 }
 .list-unstyled a {
   color: white;
@@ -12,6 +17,11 @@
   padding: 10px;
   border: 0;
   border-top: 1px solid #fff !important;
+}
+.social-icons-list {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 .footer-copyright {
   margin-bottom: 5%;
@@ -34,10 +44,8 @@
 /* fixed footer */
 .fixed-footer {
   width: 100%;
-  position: fixed;
   background: black;
   color: #fff;
-  bottom: 0px;
 }
 .span-text {
   position: relative;
@@ -89,4 +97,8 @@
 }
 .social-icons li:hover .youtube {
   background: #ff0000;
+}
+.footer-copyright-polacy {
+  display: flex;
+  list-style: none;
 }
