@@ -1,10 +1,11 @@
 import React from "react";
-import "./homepage.scss";
 
+import Carousel from "../components/slider/Carousel";
+import "./homepage.scss";
 function HomePage() {
   return (
     <div className="head">
-      <h1>home Page</h1>
+      <Carousel />
     </div>
   );
 }
