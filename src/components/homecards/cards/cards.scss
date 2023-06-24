@@ -1,0 +1,29 @@
+.custom-card {
+  cursor: pointer;
+  display: inline-flex;
+  background: #ffffff;
+  height: auto;
+  border-radius: 2px;
+  box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%) !important;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 35px;
+  width: 400px;
+  transition: all 0.5s ease 0s;
+}
+.card-1:hover {
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+  transition: all 0.5s ease 0s;
+
+  transform: scale(1.1);
+}
+.card-2:hover {
+  background: linear-gradient(to right, #f7b733, #ff4700);
+  transition: all 0.5s ease 0s;
+  transform: scale(1.1);
+}
+
+.card-1:hover span,
+.card-2:hover span {
+  color: #fff !important;
+}
